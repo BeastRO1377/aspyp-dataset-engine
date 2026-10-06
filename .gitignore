@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.pyright/
+.idea/
+.vscode/
+.cursor/
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.secret
+secrets/
+data/
