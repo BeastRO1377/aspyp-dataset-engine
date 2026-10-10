@@ -1,19 +1,24 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "aspyp-dataset-engine"
-version = "0.1.0"
-description = "Open-source evidence and graph infrastructure for blockchain intelligence and AI-agent transaction verification."
+version = "0.2.0"
+description = "Provider-neutral EVM transfer normalization with source provenance."
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "License to be determined" }
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
 authors = [{ name = "ASPYP contributors" }]
 dependencies = []
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.urls]
+Repository = "https://github.com/BeastRO1377/aspyp-dataset-engine"
+Issues = "https://github.com/BeastRO1377/aspyp-dataset-engine/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

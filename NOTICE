@@ -1,0 +1,5 @@
+ASPYP Dataset Engine
+Copyright 2026 ASPYP contributors
+
+This distribution contains a provider-neutral data normalization core.
+It includes no third-party blockchain datasets or address-label exports.
